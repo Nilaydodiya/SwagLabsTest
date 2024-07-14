@@ -21,7 +21,7 @@ public class LoginVerification extends BaseTest  {
 		loginPage.getUsername().sendKeys("standard_user");
 		loginPage.getPassword().sendKeys("secret_sauce");
 		loginPage.loginButton().click();
-		
+		System.out.println("Nilay");		
 	}
 }
 	
