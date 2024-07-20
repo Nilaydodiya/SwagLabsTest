@@ -1,0 +1,39 @@
+package swag.Testcases;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import swag.Pages.BaseTest;
+import swag.Pages.createOrder;
+import swag.Pages.loginPage;
+
+public class SubmitOrder extends BaseTest {
+	@BeforeClass
+	void Setup()
+	{
+		BaseTest obj = new BaseTest(); 
+	}
+	@Test
+	void verifygoodluckpage() throws InterruptedException
+	{
+		//Login with User
+		loginPage loginPage = new loginPage(driver);
+		createOrder createOrder = new createOrder(driver);
+		loginPage.getUsername().sendKeys("standard_user");
+		loginPage.getPassword().sendKeys("secret_sauce");
+		loginPage.loginButton().click();
+		
+		//Submit Order
+		
+		createOrder.getAddToCart().click();
+		createOrder.getCart().click();
+		createOrder.getCheckout().click();
+		createOrder.getFirstname().sendKeys("Test");
+		createOrder.getLastname().sendKeys("User");
+		createOrder.getPostalCode().sendKeys("380015");
+		createOrder.getContinue().click();
+		createOrder.getFinish().click();
+		
+	}
+
+}

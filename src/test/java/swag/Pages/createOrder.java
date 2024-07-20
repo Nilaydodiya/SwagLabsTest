@@ -22,8 +22,7 @@ WebDriver driver;
 @FindBy(xpath=".//div//input[@id='last-name']") WebElement lastname;
 @FindBy(xpath=".//div//input[@id='postal-code']") WebElement postalcode;
 @FindBy(xpath=".//div//input[@id='continue']") WebElement continuee;
-@FindBy(xpath=".//div//input[@id='finish']") WebElement finish;
-
+@FindBy(xpath=".//div//button[@id='finish']") WebElement finish;
 
 
 	public WebElement getAddToCart() {	
@@ -40,6 +39,9 @@ WebDriver driver;
 	}
 	public WebElement getLastname() {	
 		return lastname;
+	}
+	public WebElement getPostalCode() {	
+		return postalcode;
 	}
 	public WebElement getContinue() {	
 		return continuee;
