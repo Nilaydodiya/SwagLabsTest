@@ -14,7 +14,7 @@ public class SubmitOrder extends BaseTest {
 		BaseTest obj = new BaseTest(); 
 	}
 	@Test
-	void verifygoodluckpage() throws InterruptedException
+	void submitOrder() throws InterruptedException
 	{
 		//Login with User
 		loginPage loginPage = new loginPage(driver);
@@ -33,7 +33,7 @@ public class SubmitOrder extends BaseTest {
 		createOrder.getPostalCode().sendKeys("380015");
 		createOrder.getContinue().click();
 		createOrder.getFinish().click();
-		
+		driver.quit();
 	}
 
 }

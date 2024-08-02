@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-21T00:02:16 BST" name="Suite1" finished-at="2024-07-21T00:02:21 BST" duration-ms="4918">
+  <suite started-at="2024-07-31T00:31:08 BST" name="Suite1" finished-at="2024-07-31T00:31:13 BST" duration-ms="5625">
     <groups>
     </groups>
-    <test started-at="2024-07-21T00:02:16 BST" name="Test1" finished-at="2024-07-21T00:02:21 BST" duration-ms="4918">
+    <test started-at="2024-07-31T00:31:08 BST" name="Test1" finished-at="2024-07-31T00:31:13 BST" duration-ms="5625">
       <class name="swag.Testcases.LoginVerification">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.LoginVerification@712625fd]" started-at="2024-07-21T00:02:16 BST" name="setUp" finished-at="2024-07-21T00:02:19 BST" duration-ms="3189" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.LoginVerification@33065d67]" started-at="2024-07-31T00:31:08 BST" name="setUp" finished-at="2024-07-31T00:31:11 BST" duration-ms="3655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.LoginVerification@712625fd]" started-at="2024-07-21T00:02:19 BST" name="Setup" finished-at="2024-07-21T00:02:19 BST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.LoginVerification@33065d67]" started-at="2024-07-31T00:31:11 BST" name="Setup" finished-at="2024-07-31T00:31:11 BST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verifygoodluckpage()[pri:0, instance:swag.Testcases.LoginVerification@712625fd]" started-at="2024-07-21T00:02:19 BST" name="verifygoodluckpage" finished-at="2024-07-21T00:02:20 BST" duration-ms="609" status="PASS">
+        <test-method signature="verifygoodluckpage()[pri:0, instance:swag.Testcases.LoginVerification@33065d67]" started-at="2024-07-31T00:31:11 BST" name="verifygoodluckpage" finished-at="2024-07-31T00:31:12 BST" duration-ms="1131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifygoodluckpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.LoginVerification@712625fd]" started-at="2024-07-21T00:02:20 BST" name="tearDown" finished-at="2024-07-21T00:02:20 BST" duration-ms="341" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.LoginVerification@33065d67]" started-at="2024-07-31T00:31:12 BST" name="tearDown" finished-at="2024-07-31T00:31:12 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- swag.Testcases.LoginVerification -->
       <class name="swag.Testcases.SubmitOrder">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-21T00:02:16 BST" name="setUp" finished-at="2024-07-21T00:02:19 BST" duration-ms="3145" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-31T00:31:08 BST" name="setUp" finished-at="2024-07-31T00:31:11 BST" duration-ms="3658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-21T00:02:19 BST" name="Setup" finished-at="2024-07-21T00:02:19 BST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-31T00:31:11 BST" name="Setup" finished-at="2024-07-31T00:31:11 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="verifygoodluckpage()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-21T00:02:19 BST" name="verifygoodluckpage" finished-at="2024-07-21T00:02:21 BST" duration-ms="1491" status="PASS">
+        <test-method signature="submitOrder()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-31T00:31:11 BST" name="submitOrder" finished-at="2024-07-31T00:31:13 BST" duration-ms="1923" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifygoodluckpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-21T00:02:21 BST" name="tearDown" finished-at="2024-07-21T00:02:21 BST" duration-ms="232" status="PASS">
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.SubmitOrder@4c60d6e9]" started-at="2024-07-31T00:31:13 BST" name="tearDown" finished-at="2024-07-31T00:31:13 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
