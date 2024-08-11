@@ -1,8 +1,6 @@
 package swag.Testcases;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import swag.Pages.BaseTest;
 import swag.Pages.createOrder;
 import swag.Pages.loginPage;

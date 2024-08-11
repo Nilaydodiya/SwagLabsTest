@@ -11,14 +11,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- swag.Testcases.SubmitOrder -->
-      <class name="swag.Testcases.LoginVerification">
-        <methods>
-          <include name="setUp"/>
-          <include name="Setup"/>
-          <include name="verifygoodluckpage"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- swag.Testcases.LoginVerification -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
