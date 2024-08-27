@@ -2,60 +2,60 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-10T23:49:44 BST" name="Suite" finished-at="2024-08-10T23:49:56 BST" duration-ms="12000">
+  <suite started-at="2024-08-28T00:02:38 BST" name="Suite" finished-at="2024-08-28T00:02:48 BST" duration-ms="10240">
     <groups>
     </groups>
-    <test started-at="2024-08-10T23:49:44 BST" name="Test" finished-at="2024-08-10T23:49:56 BST" duration-ms="12000">
-      <class name="swag.Testcases.LoginVerification">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.LoginVerification@173ed316]" started-at="2024-08-10T23:49:44 BST" name="setUp" finished-at="2024-08-10T23:49:47 BST" duration-ms="3723" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.LoginVerification@173ed316]" started-at="2024-08-10T23:49:47 BST" name="Setup" finished-at="2024-08-10T23:49:47 BST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="verifygoodluckpage()[pri:0, instance:swag.Testcases.LoginVerification@173ed316]" started-at="2024-08-10T23:49:47 BST" name="verifygoodluckpage" finished-at="2024-08-10T23:49:48 BST" duration-ms="771" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifygoodluckpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.LoginVerification@173ed316]" started-at="2024-08-10T23:49:48 BST" name="tearDown" finished-at="2024-08-10T23:49:48 BST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- swag.Testcases.LoginVerification -->
+    <test started-at="2024-08-28T00:02:38 BST" name="Test" finished-at="2024-08-28T00:02:48 BST" duration-ms="10240">
       <class name="swag.Testcases.OrderMultipleItems">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.OrderMultipleItems@793f29ff]" started-at="2024-08-10T23:49:48 BST" name="setUp" finished-at="2024-08-10T23:49:50 BST" duration-ms="1426" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.OrderMultipleItems@23aae55]" started-at="2024-08-28T00:02:42 BST" name="setUp" finished-at="2024-08-28T00:02:43 BST" duration-ms="1393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.OrderMultipleItems@793f29ff]" started-at="2024-08-10T23:49:50 BST" name="Setup" finished-at="2024-08-10T23:49:50 BST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.OrderMultipleItems@23aae55]" started-at="2024-08-28T00:02:43 BST" name="Setup" finished-at="2024-08-28T00:02:43 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="orderMultipleItems()[pri:0, instance:swag.Testcases.OrderMultipleItems@793f29ff]" started-at="2024-08-10T23:49:50 BST" name="orderMultipleItems" finished-at="2024-08-10T23:49:52 BST" duration-ms="2749" status="PASS">
+        <test-method signature="orderMultipleItems()[pri:0, instance:swag.Testcases.OrderMultipleItems@23aae55]" started-at="2024-08-28T00:02:43 BST" name="orderMultipleItems" finished-at="2024-08-28T00:02:45 BST" duration-ms="1784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderMultipleItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.OrderMultipleItems@793f29ff]" started-at="2024-08-10T23:49:52 BST" name="tearDown" finished-at="2024-08-10T23:49:52 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.OrderMultipleItems@23aae55]" started-at="2024-08-28T00:02:45 BST" name="tearDown" finished-at="2024-08-28T00:02:45 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- swag.Testcases.OrderMultipleItems -->
-      <class name="swag.Testcases.SubmitOrder">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.SubmitOrder@3e8c3cb]" started-at="2024-08-10T23:49:52 BST" name="setUp" finished-at="2024-08-10T23:49:54 BST" duration-ms="1465" status="PASS">
+      <class name="swag.Testcases.LoginVerification">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.LoginVerification@6aa648b9]" started-at="2024-08-28T00:02:38 BST" name="setUp" finished-at="2024-08-28T00:02:41 BST" duration-ms="3209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.SubmitOrder@3e8c3cb]" started-at="2024-08-10T23:49:54 BST" name="Setup" finished-at="2024-08-10T23:49:54 BST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.LoginVerification@6aa648b9]" started-at="2024-08-28T00:02:41 BST" name="Setup" finished-at="2024-08-28T00:02:41 BST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="submitOrder()[pri:0, instance:swag.Testcases.SubmitOrder@3e8c3cb]" started-at="2024-08-10T23:49:54 BST" name="submitOrder" finished-at="2024-08-10T23:49:56 BST" duration-ms="1777" status="PASS">
+        <test-method signature="verifygoodluckpage()[pri:0, instance:swag.Testcases.LoginVerification@6aa648b9]" started-at="2024-08-28T00:02:41 BST" name="verifygoodluckpage" finished-at="2024-08-28T00:02:42 BST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifygoodluckpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.LoginVerification@6aa648b9]" started-at="2024-08-28T00:02:42 BST" name="tearDown" finished-at="2024-08-28T00:02:42 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- swag.Testcases.LoginVerification -->
+      <class name="swag.Testcases.SubmitOrder">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:swag.Testcases.SubmitOrder@5f574cc2]" started-at="2024-08-28T00:02:45 BST" name="setUp" finished-at="2024-08-28T00:02:46 BST" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:swag.Testcases.SubmitOrder@5f574cc2]" started-at="2024-08-28T00:02:46 BST" name="Setup" finished-at="2024-08-28T00:02:46 BST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="submitOrder()[pri:0, instance:swag.Testcases.SubmitOrder@5f574cc2]" started-at="2024-08-28T00:02:46 BST" name="submitOrder" finished-at="2024-08-28T00:02:48 BST" duration-ms="1559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.SubmitOrder@3e8c3cb]" started-at="2024-08-10T23:49:56 BST" name="tearDown" finished-at="2024-08-10T23:49:56 BST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:swag.Testcases.SubmitOrder@5f574cc2]" started-at="2024-08-28T00:02:48 BST" name="tearDown" finished-at="2024-08-28T00:02:48 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

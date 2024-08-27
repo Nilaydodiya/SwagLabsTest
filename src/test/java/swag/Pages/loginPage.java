@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class loginPage {
 
@@ -35,4 +36,11 @@ public class loginPage {
 		return loginbutton;
 
 	}
+	public void Login(String getUsername, String getPassword) {
+		this.username.sendKeys(getUsername);
+		this.password.sendKeys(getPassword);
+		loginbutton.click();
+		
+	}
+
 }

@@ -20,9 +20,7 @@ public class OrderMultipleItems extends BaseTest {
 				loginPage loginPage = new loginPage(driver);
 				inventoryPage inventoryPage = new inventoryPage(driver);
 				createOrder createOrder = new createOrder(driver);
-				loginPage.getUsername().sendKeys("standard_user");
-				loginPage.getPassword().sendKeys("secret_sauce");
-				loginPage.loginButton().click();
+				loginPage.Login("standard_user", "secret_sauce");
 				
 				//Submit Order
 				inventoryPage.getBackpack().click();

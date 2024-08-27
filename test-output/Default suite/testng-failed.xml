@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="swag.Testcases.SubmitOrder">
+      <class name="swag.Testcases.LoginVerification">
         <methods>
-          <include name="submitOrder"/>
           <include name="setUp"/>
           <include name="Setup"/>
+          <include name="verifygoodluckpage"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- swag.Testcases.SubmitOrder -->
+      </class> <!-- swag.Testcases.LoginVerification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

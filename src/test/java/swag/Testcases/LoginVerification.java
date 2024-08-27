@@ -17,9 +17,11 @@ public class LoginVerification extends BaseTest  {
 	{
 		loginPage loginPage = new loginPage(driver);
 		
-		loginPage.getUsername().sendKeys("standard_user");
+		/*loginPage.getUsername().sendKeys("standard_user");
 		loginPage.getPassword().sendKeys("secret_sauce");
 		loginPage.loginButton().click();
+		driver.quit();*/
+		loginPage.Login("standard_user", "secret_sauce");
 		driver.quit();
 	}
 }

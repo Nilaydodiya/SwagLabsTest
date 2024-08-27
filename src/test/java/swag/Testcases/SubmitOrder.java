@@ -17,9 +17,7 @@ public class SubmitOrder extends BaseTest {
 		//Login with User
 		loginPage loginPage = new loginPage(driver);
 		createOrder createOrder = new createOrder(driver);
-		loginPage.getUsername().sendKeys("standard_user");
-		loginPage.getPassword().sendKeys("secret_sauce");
-		loginPage.loginButton().click();
+		loginPage.Login("standard_user", "secret_sauce");
 		
 		//Submit Order
 		
